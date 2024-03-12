@@ -11,11 +11,11 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="47000001fs"></ZoomEndTime>
-      <Cursor1Time time="0fs"></Cursor1Time>
+      <ZoomEndTime time="73100001fs"></ZoomEndTime>
+      <Cursor1Time time="100300000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="133"></NameColumnWidth>
+      <NameColumnWidth column_width="126"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="6" />
@@ -35,6 +35,22 @@
       <obj_property name="ElementShortName">w_stoplight[2:0]</obj_property>
       <obj_property name="ObjectShortName">w_stoplight[2:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/stoplight_fsm_tb/w_stoplight[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/stoplight_fsm_tb/w_stoplight[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/stoplight_fsm_tb/w_stoplight[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="/stoplight_fsm_tb/uut/f_Q" type="array">
       <obj_property name="ElementShortName">f_Q[1:0]</obj_property>
